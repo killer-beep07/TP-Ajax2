@@ -1,0 +1,52 @@
+fieldset {
+    width: 50%;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.tab {
+    border-collapse: collapse;
+    margin: 0 auto;
+    font-family: Arial;
+    width: 100%;
+}
+
+.tab td, .tab th {
+    border: 1px solid black;
+    padding: 10px 15px;
+    font-family: Arial;
+}
+
+.tab tr:nth-child(odd) {
+    background-color: #f0f0ff;
+}
+
+.tab tr:nth-child(even) {
+    background-color: #ffffff;
+}
+
+.bnupdate, .bndelete {
+    padding: 10px 20px;
+    font-family: Arial;
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 5px;
+}
+
+.bnupdate {
+    background-color: #4CAF50;
+}
+
+.bndelete {
+    background-color: coral;
+}
+
+
